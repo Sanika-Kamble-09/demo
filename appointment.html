@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Appointment</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2 style="text-align:center">Book Appointment</h2>
+
+<div class="form-container">
+
+<input type="text" id="pname" placeholder="Patient Name">
+
+<input type="text" id="docname" placeholder="Doctor Name">
+
+<input type="date" id="date">
+
+<button onclick="bookAppointment()">Book Appointment</button>
+
+</div>
+
+<h2 style="text-align:center">Appointment List</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Patient Name</th>
+<th>Doctor Name</th>
+<th>Date</th>
+</tr>
+
+</thead>
+
+<tbody id="appointmentList"></tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
